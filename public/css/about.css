@@ -35,6 +35,7 @@ h1 {
 
 p {
     display: flex;
+    text-align:center;
     flex-direction: column;
     flex-grow: 1;
     padding-top: 3rem;
@@ -44,8 +45,9 @@ p {
     align-items: center;
     border-radius: 0 0 10px 10px;
     font-family: 'Russo One', sans-serif;   
-    
+    max-width: 23rem;
     font-size: small;
+    line-height:2;
 }
 
 #card{
