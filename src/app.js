@@ -3,6 +3,7 @@
 const path = require("path")
 const express = require("express")
 const app = express()
+const port = process.argv.PORT || 3000
 const hbs = require("hbs")
 const { registerPartial } = require("hbs")
 const geoCode = require("./utils/geocode.js")
@@ -78,8 +79,8 @@ app.get("*", (req,res) => {
 
 
 // app.listen(port, callback) - start up a server in the website
-app.listen(3000, () => {
-    console.log("app listening at port 3000")
+app.listen(port, () => {
+    console.log("app listening at port " + port )
 })
 
 
