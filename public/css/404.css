@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(133, 2, 2);
+}
+
+.container p {
+    display: flex;
+    flex-grow: 1;
+    padding-top: 3rem;
+}
+
+.header {
+    /* background-color: aqua; */
+    width: 20rem;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+

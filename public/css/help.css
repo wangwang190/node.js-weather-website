@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+}
+
+h1 {
+    color: rgb(105, 105, 221);
+    
+}
+
+.container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    height: 100vh;
+}
+
+.header {
+    /* background-color: aqua; */
+    width: 20rem;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.container p {
+    display: flex;
+    flex-grow: 1;
+    padding-top: 3rem;
+}
+
+#hand {
+    color: rgb(105, 105, 221);
+}

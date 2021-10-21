@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FF6B6B;
+    display: flex;
+    justify-content: center;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FDD2BF;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 30px;
+}
+
+
+
+h1 {
+    color: brown;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: 3rem;
+    background-color: #B61919;
+    color: white;
+    min-width: 23rem;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    font-family: 'Russo One', sans-serif;   
+    
+    font-size: small;
+}
+
+#card{
+    color: brown;
+}
+
+.navigation {
+    background-color:#D57E7E ;
+    border-radius: 5px 5px 0 0 ;
+}
+
+@media (max-width: 376px) {
+    .container {
+        width: 20rem;
+        height: 40rem;
+    }
+
+    p {
+        min-width: 20rem;
+        max-width: 20rem;
+    }
+
+    .titleContainer h1{
+        font-size: 4rem;
+    }
+}

@@ -1,0 +1,54 @@
+<div class="header">
+
+    <div class="titleContainer">
+        <h1 class="title">{{title}}</h1>
+    </div>
+    
+    <div class="navigation">
+        <a href="/"><b>Home</b></a>
+        <a href="/about"><b>About</b></a>
+        <a href="/help"><b>Help</b></a>
+    </div>
+</div>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+.title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+    /* background-color: aqua; */
+}
+
+.header {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(155, 107, 107);
+}
+
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    width: 23em;
+}
+
+@media (max-width:376px) {
+    .navigation {
+        width: 20rem;
+    }
+}
+
+</style>
