@@ -15,7 +15,7 @@ const forecast = (lat,long, callBack) => {
                 callBack("Please specify a valid location", undefined)
             } else {
 
-                callBack(undefined,"It is " + response.body.current.weather_descriptions +" Today.The temperature is " + response.body.current.temperature + " Degree and it feels like " + response.body.current.feelslike + " Degree today.")
+                callBack(undefined,"Observation time = " + response.body.current.observation_time + ".It is " + response.body.current.weather_descriptions +" Today.The temperature is " + response.body.current.temperature + " Degree and it feels like " + response.body.current.feelslike + " Degree today.")
             }
 
         }          
