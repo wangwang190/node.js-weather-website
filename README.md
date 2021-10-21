@@ -9,5 +9,4 @@ Steps to follow:
 3. Change directory to "src" folder.
 4. Type "node app.js" t activate the app in the terminal.
 5. Type "localhost:3000" in the URL bar in any browser. 
-6. 
 7. Check your weather!
