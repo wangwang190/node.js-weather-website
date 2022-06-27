@@ -16,4 +16,4 @@ or,
 
 WEBSITE:
 
-you can press this link https://wang190-weather-application.herokuapp.com/ to view it online.
+you can click this link https://wang190-weather-application.herokuapp.com/ to view it online.
