@@ -1,4 +1,4 @@
-# node.js-weather-website
+# Weather web app
 
 This is use to check the curent weather at your location or any places!
 
